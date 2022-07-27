@@ -7,5 +7,6 @@ app = Flask(__name__)
 def headers():
     h = request.headers
     if headers:
+        print("HEADERS:")
         print(h)
-        return ""
+        return h
