@@ -9,4 +9,4 @@ def headers():
     if headers:
         print("HEADERS:")
         print(h)
-        return h
+        return ""
